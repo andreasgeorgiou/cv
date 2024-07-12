@@ -121,7 +121,6 @@ let opt = {
 //Function to call areaCv and html2pdf options
 function generateResume(){
   html2pdf(areaCv, opt)
-  html2pdf().set(opt).from(areaCv).save();
 }
 
 //when button is clicked it executes the 3 functions
